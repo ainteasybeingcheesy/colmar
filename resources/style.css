@@ -1,0 +1,566 @@
+/* https://coolors.co/734b5e-565857-8a8d91-fcf7f8-ced3dc
+
+purple - #734b5e
+dark grey - #565857
+silver - #8a8d91
+off white - #fcf7f8
+ */
+
+*, html {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: helvetica;
+  box-sizing: border-box;
+  font-family: "montserrat", serif;
+  color: #565857;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0 2rem 1.5rem;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.column-large {
+  width: 60%;
+  padding-right: 1.5rem;
+}
+
+.column-small {
+  width: 40%;
+}
+
+/* header */
+
+header {
+  height: 4rem;
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem !important;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin-left: 1rem;
+}
+
+header nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+header nav li a:visited {
+  color: black;
+}
+
+#main-banner {
+  display: flex;
+  background-color: #734b5e;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+#main-banner .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-banner .content h2 {
+  font-weight: bold;
+  font-size: 1.875rem;
+  padding-bottom: 3rem;
+  color: #fcf7f8;
+}
+
+#main-banner .content p {
+  font-family: muli;
+  font-size: 1.25rem;
+  color: #fcf7f8;
+}
+
+#main-banner .content a {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  margin-top: 2rem;
+  text-decoration: none;
+  background-color: #8a8d91;
+}
+
+#main-banner .content a:visited {
+  color: white;
+}
+
+#practice-banner {
+  display: flex;
+}
+
+#practice-banner .info-boxes {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+#practice-banner .info.campus {
+  background-color: #734b5e;
+}
+
+#practice-banner .info.campus h4,
+#practice-banner .info.campus p,
+#practice-banner .info.campus a {
+  color: #fcf7f8;
+}
+
+#practice-banner h3 {
+  padding: 2rem 0;
+}
+
+#practice-banner .content h3 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#practice-banner .info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#practice-banner .info img.desktop {
+  height: auto;
+  width: 35%;
+  padding: 1rem;
+}
+
+/* #practice-banner .info a:visited { */
+  /* color: blue; */
+/* } */
+
+#practice-banner .info a {
+  text-decoration: none;
+}
+
+#practice-banner .info .text h4 {
+  /* font-weight: 800; */
+  font-size: 1.25rem;
+}
+
+#practice-banner .info h4,
+#practice-banner .info p {
+  padding-bottom: 0.5rem;
+}
+
+#practice-banner p:last-child {
+  margin-top:
+}
+
+#learning-banner .course-container {
+  padding: 0 4.5rem 2rem 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#learning-banner {
+  background-color: #734b5e;
+}
+
+#learning-banner h3 {
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fcf7f8;
+}
+
+#learning-banner .course-container img {
+  height: auto;
+}
+
+#learning-banner .course-container .course h4,
+#learning-banner .course-container .course h5,
+#learning-banner .course-container .course p {
+  color: #fcf7f8;
+}
+
+#learning-banner .course {
+  padding: 0 0.5rem;
+  width: 33%;
+  box-sizing: border-box;
+}
+
+#learning-banner .course h4 {
+  padding: 1rem 0;
+  font-weight: 600;
+}
+
+#learning-banner .course h5 {
+  padding-bottom: 0.5rem;
+}
+
+#learning-banner .course h4,
+#learning-banner .course h5,
+#learning-banner .course p {
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+#thesis-banner {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+#thesis-banner h3 {
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#thesis-banner video {
+  width: 100%;
+}
+
+#thesis-banner .content h4 {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+#thesis-banner .content h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+#thesis-banner .content p {
+  padding-bottom: 2rem;
+}
+
+#thesis-banner .column-container {
+  display: flex;
+}
+
+#thesis-banner .exhibit.design {
+  background-color: #734b5e;
+}
+
+#thesis-banner .exhibit.design .text h4,
+#thesis-banner .exhibit.design .text p {
+  color: #fcf7f8;
+}
+
+#thesis-banner .exhibit {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#thesis-banner .exhibit img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+#thesis-banner .exhibit .text h4 {
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+footer  {
+  /* height: 4rem; */
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: flex-end;
+  padding-right: 1.5rem !important;
+}
+
+/* footer span { */
+  /* padding: 1rem 0 0 1.5rem; */
+/* } */
+
+footer nav {
+  display: flex;
+  align-items: center;
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer nav li {
+  padding-left: 1rem;
+}
+/* desktop only */
+
+@media only screen and (min-width: 961px) {
+  .tablet,
+  .mobile {
+    display: none;
+  }
+  .container {
+    border-left: lightgray solid 2px;
+    border-right: lightgray solid 2px;
+    border-bottom: lightgray solid 2px;
+  }
+
+  header {
+    border: 0 !important;
+  }
+
+  .desktop {
+    display: inherit !important;
+  }
+
+  #main-banner .content {
+    padding-right: 1rem;
+  }
+
+  /* #practice-banner .info.guest-lecture { */
+    /* background-color: lightgray; */
+  /* } */
+
+  #practice-banner {
+    padding: 0 0 0 1.5rem;
+  }
+
+  #practice-banner .info.orientation {
+    padding-top: 1rem;
+  }
+
+  #practice-banner .content {
+    border-right: lightgray solid 1px;
+    padding: 2rem 1.5rem 2rem 0;
+  }
+
+  #practice-banner .info.campus {
+    border-top: lightgray solid 1px;
+  }
+
+  #practice-banner .info.orientation {
+    border-bottom: lightgray solid 1px;
+  }
+
+  /* #learning-banner { */
+    /* background-color: lightgrey; */
+  /* } */
+
+  #learning-banner .course-container.course {
+    background-color: white;
+  }
+}
+
+/* tablet only */
+
+@media only screen and (max-width: 960px) and (min-width: 605px) {
+  .desktop,
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: inherit !important;
+  }
+
+  .container {
+    padding: 1rem 1.5rem;
+  }
+
+  #learning-banner .course-container {
+    padding: 0;
+  }
+
+  #learning-banner {
+    background-color: #734b5e;
+  }
+
+  #practice-banner .info {
+    margin-bottom: 1rem;
+  }
+
+  #practice-banner .info .text {
+    padding-top: 1rem;
+  }
+
+  #practice-banner .column-large {
+    margin-top: 0;
+  }
+
+  #thesis-banner .exhibit .text {
+    padding-right: 1rem;
+  }
+}
+
+/* tablet and mobile */
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+
+  #main-banner {
+    padding: 2rem 1.5rem;
+  }
+
+  #practice-banner .info {
+    display: block;
+  }
+}
+
+
+/* mobile only*/
+
+@media only screen and (max-width: 604px) {
+  .desktop,
+  .tablet {
+    display: none;
+  }
+
+  .mobile {
+    display: inherit !important;
+  }
+
+  .container {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .column-large,
+  .column-small {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  header .logo {
+    width: 25%;
+  }
+
+  header nav {
+    width: 75%;
+  }
+
+  header nav ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header .logo h1 {
+    display: none;
+  }
+
+
+
+  #main-banner .content {
+    margin: 0;
+  }
+
+  #main-banner .content h2 {
+    padding: 2rem 1rem;
+  }
+
+  #main-banner .content p {
+    padding: 0 0 1.5rem 1rem;
+  }
+
+  #main-banner .content a {
+    margin: 0 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #practice-banner .content {
+    display: none;
+  }
+
+
+
+  #practice-banner .info img {
+    padding: 1rem 1rem 0 1rem;
+    box-sizing: border-box;
+  }
+
+  #practice-banner .info .text {
+    padding: 2rem;
+  }
+
+  #learning-banner {
+    margin-bottom: 2rem;
+  }
+
+  #learning-banner h3 {
+    padding-top: 2rem;
+  }
+
+  #learning-banner .course-container {
+    display: block;
+    padding: 0;
+  }
+
+  #learning-banner .course-container .course img,
+  #learning-banner .course-container .course h5,
+  #learning-banner .course-container .course p {
+    display: none;
+  }
+
+  #learning-banner .course-container .course {
+    width: 100%;
+  }
+
+  #learning-banner .course-container .course h4 {
+    background-color: #565857;
+    margin-bottom: 0.5rem;
+    padding: 1rem 0 1.5rem 1rem;
+  }
+
+  #thesis-banner {
+    padding: 2rem 1.5rem;
+  }
+
+  #thesis-banner h3 {
+    padding: 2rem 0 1.5rem 0;
+  }
+
+  #thesis-banner .column-small,
+  #thesis-banner .content h4,
+  #thesis-banner .content p {
+    display: none;
+  }
+
+  #thesis-banner .content video {
+    padding-bottom: 1.5rem;
+  }
+
+  footer nav {
+    display: none;
+  }
+
+  footer span {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  footer {
+    height: auto;
+  }
+
+
+}
