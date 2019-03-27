@@ -312,11 +312,13 @@ footer nav li {
 }
 /* desktop only */
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1171px) {
+/* @media only screen and (min-width: 961px) { */
   .tablet,
   .mobile {
     display: none;
   }
+
   .container {
     border-left: lightgray solid 2px;
     border-right: lightgray solid 2px;
@@ -367,11 +369,16 @@ footer nav li {
   #learning-banner .course-container.course {
     background-color: white;
   }
+
+  #thesis-banner .exhibit.design .text {
+    padding-right: 1rem;
+  }
 }
 
 /* tablet only */
 
-@media only screen and (max-width: 960px) and (min-width: 605px) {
+@media only screen and (max-width: 1170px) and (min-width: 605px) {
+  /* @media only screen and (max-width: 960px) and (min-width: 605px) { */
   .desktop,
   .mobile {
     display: none;
@@ -399,6 +406,11 @@ footer nav li {
 
   #practice-banner .info .text {
     padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  #practice-banner .info.campus .text {
+    padding-bottom: 0.5rem;
   }
 
   #practice-banner .column-large {
@@ -412,7 +424,8 @@ footer nav li {
 
 /* tablet and mobile */
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1170px) {
+  /* @media only screen and (max-width: 960px) { */
   .container {
     width: 100%;
   }
